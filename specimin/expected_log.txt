@@ -1,7 +1,7 @@
 error: handleInvalid(this=org.checkerframework.framework.util.element.MethodTypeParamApplier):
   Targeted annotations: METHOD_TYPE_PARAMETER, METHOD_TYPE_PARAMETER_BOUND
   Valid annotations: METHOD_RETURN, METHOD_FORMAL_PARAMETER, METHOD_RECEIVER, THROWS, LOCAL_VARIABLE, RESOURCE_VARIABLE, EXCEPTION_PARAMETER, NEW, CAST, INSTANCEOF, METHOD_INVOCATION_TYPE_ARGUMENT, CONSTRUCTOR_INVOCATION_TYPE_ARGUMENT, METHOD_REFERENCE, CONSTRUCTOR_REFERENCE, METHOD_REFERENCE_TYPE_ARGUMENT, CONSTRUCTOR_REFERENCE_TYPE_ARGUMENT
-  Compilation unit: /Users/tahiatul/Documents/SPECIMEN/project/guava/guava/src/com/google/common/collect/MutableClassToInstanceMap.java
+  Compilation unit: /Users/Documents/SPECIMEN/project/guava/guava/src/com/google/common/collect/MutableClassToInstanceMap.java
   Last visited tree at line 45 column 1:
   @GwtIncompatible
   Exception: java.lang.Throwable; Stack trace: org.checkerframework.javacutil.BugInCF.<init>(BugInCF.java:14)
