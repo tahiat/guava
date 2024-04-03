@@ -29,4 +29,5 @@ checkerFramework {
 dependencies {
   compileOnly 'org.checkerframework:checker-qual:3.0.1'
   checkerFramework 'org.checkerframework:checker:3.0.1'
+  checkerFrameworkAnnotatedJDK files('../../input/guava/specimin/jdk8.jar')
 }
