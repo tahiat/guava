@@ -1,3 +1,6 @@
-/Users/Documents/SPECIMEN/project/guava/guava/src/com/google/common/collect/Multimaps.java:[281,37] error: [argument.type.incompatible] incompatible types in argument.
-  found   : K[ extends @Initialized @Nullable Object super @Initialized @NonNull Void]
-  required: K[ extends @Initialized @Nullable Object super @Initialized @NonNull Void]
+src/main/java/com/google/common/collect/Multimaps.java:[281,37] error: [argument.type.incompatible] incompatible types in argument.
+    return new WrappedCollection(key, collection, null);
+                ^
+  found   : K extends @Initialized @Nullable Object
+  required: K extends @Initialized @Nullable Object
+1 error

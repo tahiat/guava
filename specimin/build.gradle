@@ -10,14 +10,6 @@ java {
         languageVersion = JavaLanguageVersion.of(11)
     }
 }
-sourceSets {
-    main {
-        java {
-            srcDirs = ['src/main/java']
-            include 'com/google/common/collect/Multimaps.java'
-        }
-    }
-}
 repositories {
     mavenCentral()
 }
