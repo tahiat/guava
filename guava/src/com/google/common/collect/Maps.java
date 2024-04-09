@@ -583,9 +583,10 @@ public final class Maps {
     Map<K, V> onBoth = newLinkedHashMap();
     Map<K, MapDifference.ValueDifference<V>> differences = newLinkedHashMap();
     // This cast works around https://github.com/typetools/checker-framework/issues/3025
-    @SuppressWarnings("unchecked") // safe because Equivalence is contravariant
-    Equivalence<V> castEquivalence = (Equivalence<V>) valueEquivalence;
-    doDifference(left, right, castEquivalence, onlyOnLeft, onlyOnRight, onBoth, differences);
+    //@SuppressWarnings("unchecked") // safe because Equivalence is contravariant
+    //Equivalence<V> castEquivalence = (Equivalence<V>) valueEquivalence;
+    //doDifference(left, right, castEquivalence, onlyOnLeft, onlyOnRight, onBoth, differences);
+    doDifference(left, right, valueEquivalence, onlyOnLeft, onlyOnRight, onBoth, differences);
     return new MapDifferenceImpl<>(onlyOnLeft, onlyOnRight, onBoth, differences);
   }
 
